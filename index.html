@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="./about/aboutPage.html">
+
+
+    <!-- Bootsrtap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Bootsrtap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- jQuery import -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header starts -->
+    <header class="d-flex flex-wrap justify-content-center bg-secondary jumbotron text-center parallax">
+        Criptonite
+        <div id="logo">
+            <img src="./assets/logo.png">
+        </div>
+    </header>
+    <!-- end of header -->
+
+
+    <img src="./assets/loading.gif" alt="downloading gif" id="divImageLoade">
+
+
+    <!-- nav bar starts  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Graph</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">About</button>
+                        </li>
+                    </ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                                id="myInput2" onkeydown="return(event.keyCode!=13);">
+                            <button class="btn btn-primary" type="button" id="myBtn2">Coin</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <!-- nav bar ends  -->
+    <!-- <div class="parallax"></div> -->
+
+    <!-- content linked form nav bar starts -->
+    <div class="tab-content" id="pills-tabContent">
+        <!-- Home section starts here -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <ul class="d-flex justify-content-center row row-cols-1 row-cols-md-3 g-4" id="dialog"></ul>
+
+        </div>
+        <!-- Home section starts here -->
+        <!-- graph section starts here -->
+        <div class="tab-pane fade showChart" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <!-- <div id="chartContainer3" style="height: 550px; width: 95%;"></div> -->
+
+        </div>
+        <!-- graph section starts here -->
+        <!-- about sectionstart here -->
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div id="about">
+                </br>
+
+                <h1>About The Project</h1>
+                <div class="quote">
+                    <p>"Cryptonight Poject" is the seond projct of JOHN BRICE Full-Stack Bootcamp</p>
+                </div>
+                <p>This project aims to demonstrate capabilities in the following technologies:</p>
+                <p>HTML, CSS, JavaScript, Jquery, AJAX, Bootstrap, API's, Cash/Session Storage, arrays and objects
+                    methods.</p>
+                <p>The project present the user with basic information of Ctypto coin's, Enable theuser to get more
+                    information
+                    about the coin (icon and prices in USD, EUR and ILS), and Ebale the user to select
+                    up to 5 coins that their USD prices would be presented over "live" Graph, that updated every 2
+                    seconds!
+                </p>
+
+
+
+                </br>
+                <h1>
+                    About The Creator <img src="./assets/owner-picture.jpg" alt="owner picture" class="img-circle"> Chen
+                    Karmely
+                </h1>
+                <h4>Summary</h4>
+                <div class="quote">
+                    <p>
+                        please go to: https:/www.linkedin.com/in/chen-k
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- about sectionstart ends here -->
+
+    </div>
+    <!-- content linked form nav bar starts -->
+
+    <!-- <h1>here will be something</h1> -->
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="main.js"></script>i
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+ul {
+  display: flex;
+}
+
+.hideCards {
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+/* #about {
+  text-align: left;
+} */
+
+h1 {
+  font-size: 80px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+}
+p,
+h4,
+h1 {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+#divImageLoade {
+  position: fixed;
+  top: 25%;
+  right: 5%;
+  display: none;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  z-index: 200;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./assets/img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 180px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header{
+  /* padding-top: 2%; */
+    font-size: 50px;
+    height: 150px;
+    text-align: left;
+    /* font-weight: bold; */
+    /* color:  #ebfaeb; */
+    color: white;
+
+}
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	right:0; 
+  z-index: 100;
+} 
+
+/* https://www.w3schools.com/colors/colors_picker.asp */
+#pills-home, #pills-contact, #pills-profile{ 
+  background-color:  #ebfaeb
+;
+}
+
+.card-body{
+  background-color: white;
+}
